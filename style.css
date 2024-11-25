@@ -1,0 +1,53 @@
+
+body {
+    background: linear-gradient(to bottom, #72cc51, #006400);  /* Degradé */
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/*Título */
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem; 
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #13530b;
+
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; 
+
+}
+
+
+.card img {
+    border-radius: 12px 12px 0 0; 
+    object-fit: cover; /* Ajuste de imagen */
+    height: 270px; 
+}
+
+
+.card-body {
+    background-color: rgba(200, 254, 222, 0.7);
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+}
+
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #00af26; 
+}
+
+.card-text {
+    font-size: 0.10 rem;
+    color: #000000; 
+}
